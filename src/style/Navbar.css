@@ -1,0 +1,18 @@
+ul{
+    list-style: none outside none;
+}
+
+li{
+    position: relative;
+    display: inline;
+    margin: 25px;
+}
+
+li a{
+    color: grey;
+}
+
+#search-bar{
+    width: 150px;
+    color: red;
+}
