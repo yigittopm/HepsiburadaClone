@@ -15,8 +15,11 @@ export default class Navbar extends Component {
                     <li><a href="^#">Klavye</a></li>
                     <li><a href="^#">Hayvan</a></li>
 
-                    <input id="search-bar" placeholder="Binlerce ürünü arayabilirsiniz..  "/>
+                    <input id="search-bar" placeholder="Binlerce ürünü arayabilirsiniz..  " />                   
+                    <button className="btn">Search</button>
+                
                 </ul>
+                <br/>
             </div>
         )
     }

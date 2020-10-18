@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer';
 import FilterNav from './components/FilterNav';
 import ProductList from './components/ProductList';
+import NextPage from './components/NextPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <FilterNav/>
       <ProductList/>
+      <NextPage/>
       <Footer/>
     </div>
   );

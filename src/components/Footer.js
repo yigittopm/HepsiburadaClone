@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../style/Footer.css';
+
 class Footer extends React.Component {
     render() {
 
@@ -9,7 +11,7 @@ class Footer extends React.Component {
         }
 
         return (
-            <div className="justift-content-center" style={{ myStyle }}>
+            <div id="footer" className="justift-content-center" style={{ myStyle }}>
                 <p >
                     W3Schools is optimized for learning and training. 
                     Examples might be simplified to improve reading and learning. 
@@ -17,6 +19,7 @@ class Footer extends React.Component {
                     Copyright 1999-2020 by Refsnes Data. All Rights Reserved.
                     W3Schools is Powered by W3.CSS.
                 </p>
+                <h2>Footer</h2>
             </div>
 
         );

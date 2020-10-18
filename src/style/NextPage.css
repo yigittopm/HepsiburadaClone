@@ -1,17 +1,14 @@
-ul{
+#next-page ul{
     list-style: none outside none;
+    text-align: center;
 }
 
-li{
+#next-page li{
     position: relative;
     display: inline;
     margin: 25px;
 }
 
-li a{
+#next-page li a{
     color: grey;
-}
-
-#search-bar{
-    width: 200px;
 }
